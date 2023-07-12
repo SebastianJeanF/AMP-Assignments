@@ -84,12 +84,13 @@ def count_change(money, length, target, memo):
     Recursive code that counts the number of solutions without enumerating solutions.
 
     Example:
-    >>> count_change(money, len(money), 6) 
+    >>> count_change([1,2,5], 3, 6) 
     5
     >>> count_change(bills2, len(bills2), 16)
     25
 
     """
+
     return
 
 if __name__=="__main__":
